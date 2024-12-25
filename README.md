@@ -15,10 +15,10 @@ DE0 보드를 활용한 프로젝트를 진행하였고, 프로그래밍은 Alte
 <table>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/af79d44b-dcf5-4a49-9904-48fe3d5580b0" alt="Image 1">
+      <img src="https://github.com/user-attachments/assets/af79d44b-dcf5-4a49-9904-48fe3d5580b0" alt="Image 1" width="200">
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/4680cdc7-4af4-4007-b154-bf3fa56a96f1" alt="Image 2">
+      <img src="https://github.com/user-attachments/assets/4680cdc7-4af4-4007-b154-bf3fa56a96f1" alt="Image 2" width="200">
     </td>
   </tr>
 </table>
@@ -28,10 +28,10 @@ DE0 보드를 활용한 프로젝트를 진행하였고, 프로그래밍은 Alte
 <table>
   <tr>
     <td>
-      <img src="https://github.com/user-attachments/assets/91b677ab-0271-45ea-9167-e0a290b641f6" alt="Image 1">
+      <img src="https://github.com/user-attachments/assets/91b677ab-0271-45ea-9167-e0a290b641f6" alt="Image 1" width="200">
     </td>
     <td>
-      <img src="https://github.com/user-attachments/assets/386b0575-d63c-4e6c-b859-8e192e4e38ad" alt="Image 2">
+      <img src="https://github.com/user-attachments/assets/386b0575-d63c-4e6c-b859-8e192e4e38ad" alt="Image 2" width="200">
     </td>
   </tr>
 </table>
