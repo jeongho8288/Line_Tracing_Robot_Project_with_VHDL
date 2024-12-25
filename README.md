@@ -1,1 +1,2 @@
-# Line_Tracing_Robot_Project_with_VHDL
+# Project conducted in Robotics Laboratory 2
+---
