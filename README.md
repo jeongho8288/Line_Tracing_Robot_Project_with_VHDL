@@ -10,6 +10,9 @@ DE0 보드를 활용한 프로젝트를 진행하였고, 프로그래밍은 Alte
 <hr style="border-top: 3px solid #bbb;">
 
 ## Robot&Map Images
+
+- 한 개의 가로 선의 경우는 멈추는 것을 구현
+- 두 개의 가로 선의 경우는 가속 구간을 구현
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <img src="https://github.com/user-attachments/assets/af79d44b-dcf5-4a49-9904-48fe3d5580b0" alt="Description1" style="width: 30%; height: 200px; margin-right: 2%;">
   <img src="https://github.com/user-attachments/assets/55896f91-41db-4f25-b69a-6841159d8ef9" alt="Description2" style="width: 30%; height: 200px;">
