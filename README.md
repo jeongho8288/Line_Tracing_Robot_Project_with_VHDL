@@ -5,7 +5,7 @@ DE0 보드를 활용한 프로젝트를 진행하였고, 프로그래밍은 Alte
 
 19.67초의 기록으로 반에서 최종 1등이라는 기록을 달성하였습니다.
 
-<img src="https://github.com/user-attachments/assets/1e478383-bd30-44f2-bc8d-743a14ff60df" alt="Description" style="width: 80%;">
+<img src="https://github.com/user-attachments/assets/1e478383-bd30-44f2-bc8d-743a14ff60df" alt="Description" style="width: 60%;">
 
 <hr style="border-top: 3px solid #bbb;">
 
