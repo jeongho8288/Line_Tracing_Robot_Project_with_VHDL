@@ -1,0 +1,114 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity Robot2_project is
+	port(
+			clk			: in bit;
+			in_bit 		: in bit_vector (0 to 7);
+			LED 			: out bit_vector(0 to 7));
+			left_motor 	: out std_logic;
+			right_motor : out std_logic;
+end Robot2_project;
+			
+architecture line_tracer of Robot2_project is
+	signal carry_cnt 			: integer range 0 to 50000 :=0;
+	signal left_motor_rate 	: integer range 0 to 100 := 0;
+	signal right_motor_rate : integer range 0 to 100 := 0;
+	
+begin
+	process(in_bit)
+	begin
+		LED <= not in_bit;
+	end process;
+
+	process(clk)
+	begin
+		if(clk'event and clk = '1') then
+			carry_cnt <= carry_cnt + 1;
+			if(carry_cnt >= 49998) then
+				carry_cnt <= 0;
+			end if;
+		end if;
+	end process;
+	
+	process(carry_cnt)
+	begin
+		left_motor_rate_to_clock	:= 500 * left_motor_rate;
+		right_motor_rate_to_clock  := 500 * right_motor_rate;
+		
+		if(carry_cnt < left_motor_rate_to_clock) then
+			left_motor <= '1';
+		else
+			left_motor <= '0';
+		end if;
+		
+		if(carry_cnt < right_motor_rate_to_clock) then
+			right_motor <= '1';
+		else
+			right_motor <= '0';
+		end if;
+	end process;
+	
+	process(in_bit)
+	begin
+	  if(in_bit = "11100111") then
+		 left_motor_rate <= 100;
+		 right_motor_rate <= 100;
+
+	  elsif(in_bit = "11110111") then
+		 left_motor_rate <= 100;
+		 right_motor_rate <= 100;
+
+	  elsif(in_bit = "11101111") then
+		 left_motor_rate <= 100;
+		 right_motor_rate <= 100;
+
+	  elsif(in_bit = "11111110") then
+		 left_motor_rate <= 100;
+		 right_motor_rate <= 0;
+
+	  elsif(in_bit = "01111111") then
+		 left_motor_rate <= 0;
+		 right_motor_rate <= 100;
+	  
+	  elsif(in_bit = "11111100") then
+		  left_motor_rate <= 100;
+		  right_motor_rate <= 0;
+
+		elsif(in_bit = "00111111") then
+		  left_motor_rate <= 0;
+		  right_motor_rate <= 100;
+
+		elsif(in_bit = "11111101") then
+		  left_motor_rate <= 100;
+		  right_motor_rate <= 5;
+
+		elsif(in_bit = "10111111") then
+		  left_motor_rate <= 5;
+		  right_motor_rate <= 100;
+
+		elsif(in_bit = "11111001") then
+		  left_motor_rate <= 100;
+		  right_motor_rate <= 10;
+
+		elsif(in_bit = "10011111") then
+		  left_motor_rate <= 10;
+		  right_motor_rate <= 100;
+		  
+	  elsif(in_bit = "11111011") then
+		  left_motor_rate <= 100;
+		  right_motor_rate <= 15;
+
+		elsif(in_bit = "11011111") then
+		  left_motor_rate <= 15;
+		  right_motor_rate <= 100;
+
+		elsif(in_bit = "11110011") then
+		  left_motor_rate <= 100;
+		  right_motor_rate <= 20;
+
+		elsif(in_bit = "11001111") then
+		  left_motor_rate <= 20;
+		  right_motor_rate <= 100;
+		end if;
+	end process;
