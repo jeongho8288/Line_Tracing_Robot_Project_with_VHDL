@@ -37,6 +37,10 @@ motor
   <img src="https://github.com/user-attachments/assets/67cdebfb-39a8-4de3-bccf-d878ee270114" alt="Description1" style="width: 30%; height: 200px; margin-right: 2%;">
   <img src="https://github.com/user-attachments/assets/f49f7ea7-b9e6-47e8-86f6-542e6a35ee61" alt="Description2" style="width: 30%; height: 200px;">
 </div>
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <img src="https://github.com/user-attachments/assets/b7e0e1a3-4a58-421e-bf51-ae443ee4ca3e" alt="Description1" style="width: 30%; height: 300px; margin-right: 2%;">
+  <img src="https://github.com/user-attachments/assets/4e9e6553-ad9d-44e7-a694-48255dfc45c1" alt="Description2" style="width: 30%; height: 300px;">
+</div>
 <hr style="border-top: 3px solid #bbb;">
 
 
