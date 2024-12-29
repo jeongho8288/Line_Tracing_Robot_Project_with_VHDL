@@ -1,4 +1,5 @@
 # Project conducted in Robotics Laboratory 2
+
 The project was conducted using the DE0 board, and programming was carried out in VHDL using Altera Quartus.
 
 The robot was equipped with 8 IR sensors, but in the actual implementation, 
@@ -24,9 +25,15 @@ The robot achieved a record of 21.57 seconds, securing first place in the class.
   <img src="https://github.com/user-attachments/assets/91b677ab-0271-45ea-9167-e0a290b641f6" alt="Description2" style="width: 20%; height: 180px; margin-right: 2%;">
   <img src="https://github.com/user-attachments/assets/61cd6b32-37fb-4d91-9aac-43c0cf3c059e" alt="Description3" style="width: 20%; height: 180px;">
 </div>
+<div style="display: flex; justify-content: space-around; align-items: center;">
+  <img src="https://github.com/user-attachments/assets/b7e0e1a3-4a58-421e-bf51-ae443ee4ca3e" alt="Description1" style="width: 20%; height: 300px; margin-right: 2%;">
+  <img src="https://github.com/user-attachments/assets/4e9e6553-ad9d-44e7-a694-48255dfc45c1" alt="Description2" style="width: 20%; height: 300px; margin-right: 2%;">
+  <img src="https://github.com/user-attachments/assets/8813ac58-9e05-4975-928f-f275c2132bda" alt="Description3" style="width: 20%; height: 380px;">
+</div>
 <hr style="border-top: 3px solid #bbb;">
 
 ## circuit diagram
+
 sensor
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <img src="https://github.com/user-attachments/assets/ee20c8ae-67f8-4024-8af2-1539c9a86ff0" alt="Description1" style="width: 30%; height: 200px; margin-right: 2%;">
@@ -36,10 +43,6 @@ motor
 <div style="display: flex; justify-content: space-around; align-items: center;">
   <img src="https://github.com/user-attachments/assets/67cdebfb-39a8-4de3-bccf-d878ee270114" alt="Description1" style="width: 30%; height: 200px; margin-right: 2%;">
   <img src="https://github.com/user-attachments/assets/f49f7ea7-b9e6-47e8-86f6-542e6a35ee61" alt="Description2" style="width: 30%; height: 200px;">
-</div>
-<div style="display: flex; justify-content: space-around; align-items: center;">
-  <img src="https://github.com/user-attachments/assets/b7e0e1a3-4a58-421e-bf51-ae443ee4ca3e" alt="Description1" style="width: 30%; height: 300px; margin-right: 2%;">
-  <img src="https://github.com/user-attachments/assets/4e9e6553-ad9d-44e7-a694-48255dfc45c1" alt="Description2" style="width: 30%; height: 300px;">
 </div>
 <hr style="border-top: 3px solid #bbb;">
 
